@@ -14,8 +14,6 @@ public class Car {
 	public Car(String make, String model, String year, String engineType) {
 		this.make = make;
 		this.model = model;
-		this.year = year; 
-		this.engine.type(engineType); 
 	}
 
 	public void run() {

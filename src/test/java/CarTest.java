@@ -9,7 +9,9 @@ public class CarTest {
 	
 	@Test
 	public void shouldCreateCarObjectWithEngine() {
-		Car test = new Car("honda","civc","2012"); 
+		Car test = new Car(); 
+		
+		Car.engine("v6"); 
 		
 		
 		
